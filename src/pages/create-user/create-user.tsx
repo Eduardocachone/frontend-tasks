@@ -46,7 +46,7 @@ function SingUp() {
         <input className="input" type="text" value={name} placeholder="nome" onChange={(e) => setName(e.target.value)}/>
         <input className="input" type="email" value={email} placeholder="email" onChange={(e) => setEmail(e.target.value)} />
         <input className="input" type="password" value={password} placeholder="senha" onChange={(e) => setPassword(e.target.value)} />
-        
+             
         <Space>
           <ButtonLogin onClick={() =>{navigate('/login')} } >Fazer login?</ButtonLogin>
           <ButtonCreate onClick={() =>{handleCreate(name,email,password)}} disabled={!isFieldsFilled} >Criar conta</ButtonCreate>
@@ -56,5 +56,5 @@ function SingUp() {
   );
 }
 
-  export default SingUp;
-  
+
+export default SingUp;

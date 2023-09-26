@@ -11,18 +11,18 @@ import {
 
 }from './tasks-styles';
 
-function Tasks() {
+  function Tasks() {
 
 
-  return (
-    <Container>
-        <Header/>
-        <AddTasks/>
-        <Divaider/>
-        <DefinitionTask/>
-    </Container>
-  );
-}
+    return (
+      <Container>
+          <Header/>
+          <AddTasks/>
+          <Divaider/>
+          <DefinitionTask/>
+      </Container>
+    );
+  }
 
-  export default Tasks;
+    export default Tasks;
   
